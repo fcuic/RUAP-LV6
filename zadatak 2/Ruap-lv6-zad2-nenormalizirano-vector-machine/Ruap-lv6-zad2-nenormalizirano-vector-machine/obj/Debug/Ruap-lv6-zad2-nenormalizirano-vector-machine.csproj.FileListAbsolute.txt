@@ -1,0 +1,10 @@
+C:\Users\student\Desktop\RUAP-LV6\zadatak 2\Ruap-lv6-zad2-nenormalizirano-vector-machine\Ruap-lv6-zad2-nenormalizirano-vector-machine\bin\Debug\Ruap-lv6-zad2-nenormalizirano-vector-machine.exe.config
+C:\Users\student\Desktop\RUAP-LV6\zadatak 2\Ruap-lv6-zad2-nenormalizirano-vector-machine\Ruap-lv6-zad2-nenormalizirano-vector-machine\bin\Debug\Ruap-lv6-zad2-nenormalizirano-vector-machine.exe
+C:\Users\student\Desktop\RUAP-LV6\zadatak 2\Ruap-lv6-zad2-nenormalizirano-vector-machine\Ruap-lv6-zad2-nenormalizirano-vector-machine\bin\Debug\Ruap-lv6-zad2-nenormalizirano-vector-machine.pdb
+C:\Users\student\Desktop\RUAP-LV6\zadatak 2\Ruap-lv6-zad2-nenormalizirano-vector-machine\Ruap-lv6-zad2-nenormalizirano-vector-machine\bin\Debug\Newtonsoft.Json.dll
+C:\Users\student\Desktop\RUAP-LV6\zadatak 2\Ruap-lv6-zad2-nenormalizirano-vector-machine\Ruap-lv6-zad2-nenormalizirano-vector-machine\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\student\Desktop\RUAP-LV6\zadatak 2\Ruap-lv6-zad2-nenormalizirano-vector-machine\Ruap-lv6-zad2-nenormalizirano-vector-machine\bin\Debug\Newtonsoft.Json.xml
+C:\Users\student\Desktop\RUAP-LV6\zadatak 2\Ruap-lv6-zad2-nenormalizirano-vector-machine\Ruap-lv6-zad2-nenormalizirano-vector-machine\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\student\Desktop\RUAP-LV6\zadatak 2\Ruap-lv6-zad2-nenormalizirano-vector-machine\Ruap-lv6-zad2-nenormalizirano-vector-machine\obj\Debug\Ruap-lv6-zad2-nenormalizirano-vector-machine.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\RUAP-LV6\zadatak 2\Ruap-lv6-zad2-nenormalizirano-vector-machine\Ruap-lv6-zad2-nenormalizirano-vector-machine\obj\Debug\Ruap-lv6-zad2-nenormalizirano-vector-machine.exe
+C:\Users\student\Desktop\RUAP-LV6\zadatak 2\Ruap-lv6-zad2-nenormalizirano-vector-machine\Ruap-lv6-zad2-nenormalizirano-vector-machine\obj\Debug\Ruap-lv6-zad2-nenormalizirano-vector-machine.pdb
