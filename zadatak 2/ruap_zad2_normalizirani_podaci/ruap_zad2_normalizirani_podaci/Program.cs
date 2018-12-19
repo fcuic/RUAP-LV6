@@ -35,13 +35,13 @@ namespace CallRequestResponseService
                 var scoreRequest = new
                 {
 
-                    Inputs = new Dictionary<string, StringTable>() { 
-                        { 
-                            "input1", 
-                            new StringTable() 
+                    Inputs = new Dictionary<string, StringTable>() {
+                        {
+                            "input1",
+                            new StringTable()
                             {
                                 ColumnNames = new string[] {"Recency", "Frequency", "Monetary", "Time", "Class"},
-                                Values = new string[,] {  { "2", "50", "12500", "98", "1" },  { "0", "13", "3250", "28", "1" },  }//testni podaci
+                                Values = new string[,] {  { "5", "46", "11500", "98", "1" },  { "0", "3", "750", "4", "0" },  }//dodane random dvije instance iz blood sample skupa podataka
                             }
                         },
                     },
@@ -49,10 +49,10 @@ namespace CallRequestResponseService
                     {
                     }
                 };
-                const string apiKey = "uwBgzGtq/m7A5sYLvqZyVUdLiuuDHljnRN46StK+0hw/E9OatrXbZ0YT+tCnZBZ/+LY/bXPJafGDSRx+HPdLMA=="; // Replace this with the API key for the web service
+                const string apiKey = "O18qirIwIdR4HLawm+Z7P8yHIma8CFmdKReM0WIlwfO3o3VwJl+dp7nF3hzDxD6+9Rvj1xe9Q+GLGoIN1H7emQ=="; // Replace this with the API key for the web service
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
 
-                client.BaseAddress = new Uri("https://ussouthcentral.services.azureml.net/workspaces/c8f8d54293054df997070fac57ee9366/services/24c0fa6ee1964761a7efda44fa4e1909/execute?api-version=2.0&details=true");
+                client.BaseAddress = new Uri("https://ussouthcentral.services.azureml.net/workspaces/c8f8d54293054df997070fac57ee9366/services/f2b673c2ffad48a0ae129da5a07ea77b/execute?api-version=2.0&details=true");
 
                 // WARNING: The 'await' statement below can result in a deadlock if you are calling this code from the UI thread of an ASP.Net application.
                 // One way to address this would be to call ConfigureAwait(false) so that the execution does not attempt to resume on the original context.
@@ -76,8 +76,9 @@ namespace CallRequestResponseService
                     // Print the headers - they include the requert ID and the timestamp, which are useful for debugging the failure
                     Console.WriteLine(response.Headers.ToString());
 
-                    string responseContent = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+                    string responseContent = await response.Content.ReadAsStringAsync().ConfigureAwait(false); ;
                     Console.WriteLine(responseContent);
+                    Console.Read();
                 }
             }
         }

@@ -66,7 +66,7 @@ namespace CallRequestResponseService
 
                 if (response.IsSuccessStatusCode)
                 {
-                    string result = await response.Content.ReadAsStringAsync();
+                    string result = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
                     Console.WriteLine("Result: {0}", result);
                 }
                 else
@@ -76,7 +76,7 @@ namespace CallRequestResponseService
                     // Print the headers - they include the requert ID and the timestamp, which are useful for debugging the failure
                     Console.WriteLine(response.Headers.ToString());
 
-                    string responseContent = await response.Content.ReadAsStringAsync();
+                    string responseContent = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
                     Console.WriteLine(responseContent);
                 }
             }
